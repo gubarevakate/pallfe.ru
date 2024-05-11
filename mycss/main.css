@@ -1,0 +1,488 @@
+ul, li {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.card-selection {
+    width: 300px;
+}
+
+.reg__wrapper {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.reg__item {
+
+    margin-bottom: 25px;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.item__burger {
+    text-decoration: none;
+    margin-right:30px;
+    color: gray;
+    font-size: 20px;
+}
+
+.hamburger {
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+}
+
+.burger {
+    text-decoration: none;
+}
+
+.nav-links li a {
+    color: gray;
+    text-decoration: none;
+    padding: 1rem;
+    margin-right:30px;
+    font-size: 20px;
+}
+
+.nav-links {
+    display: none;
+}
+
+.hamburger-menu {
+    display: none;
+}
+
+/* Медиазапрос для мобильных устройств */
+@media (max-width: 768px) {
+    .hamburger-menu {
+        display: block;
+    }
+}
+
+.humburger{
+    margin: 50px -100px 0 220px; 
+    transform: translate(-50%,
+    -50%);
+    background: #1a1a1a;
+    width: 400px;
+    line-height: 40px;
+    padding: 8px 25px;
+    border-radius: 5px;
+    }
+    .humburger label{
+        color: white;
+        font-size: 22px;
+        font-weight: 500;
+        display: block;
+        cursor: pointer;
+        }
+    
+        .button span{
+        float: right;
+        line-height: 40px;
+        transition: 0.5s;
+        }
+        .button span.rotate{
+        transform: rotate(-180deg);
+        }
+        .humburger ul{
+        position: absolute;
+        background: #1b1b1b;
+        list-style: none;
+        top: 75px;
+        left: 0;
+        width: 100%;
+        border-radius:
+        5px;
+        display: none;
+        }
+    
+    
+        [id^=btn]:checked + ul{
+        display: block;
+        }
+    
+    
+        .humburger .menu:before{
+        position: absolute;
+        content: '';
+        height: 20px;
+        width: 20px;
+        background: #1b1b1b;
+        right: 20px;
+        top: -10px;
+        transform: rotate(45deg);
+        z-index: -1;
+    
+        }
+    
+        .humburger ul li{
+            line-height: 40px;
+            padding:
+            8px 20px;
+            cursor: pointer;
+            border-bottom: 1px solid rgba(0,0,0,0.2);
+            }
+        .humburger ul li label{
+            font-size: 18px;
+            }
+        .humburger ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            display: block;
+            }
+    
+    
+        .humburger ul li a:hover,
+        .humburger ul li label:hover {
+                color: cyan;
+            }
+    
+        .humburger ul ul{
+        position:
+        static;
+    }
+    .humburger ul ul li{
+        line-height: 30px;
+        padding-left: 30px;
+        border-bottom: none;
+    }
+    .humburger ul ul li a{
+        color: #e6e6e6;
+        font-size: 17px;
+    }
+    
+    
+    .humburger ul li span{
+        font-size: 20px;
+        float: right;
+        margin-top: 10px;
+        padding: 0 10px;
+        transition: 0.5s;
+    
+    }
+    
+    .humburger ul li span.rotate{
+        transform: rotate(-180deg);
+    }
+    
+.humb__item{
+        display: none;
+    }    
+
+.hello {
+    margin: 50px 0 30px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+footer {
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+.reg__text {
+    width: 150px;
+}
+
+.reg__field {
+    width: 550px;
+}
+
+.menu__offer {
+    text-decoration: none;
+    border-radius: 20px;
+    display: block;
+    
+}
+
+.menu__item {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    background: rgb(36, 36, 36);
+    padding: 18px;
+}
+
+.link__offer {
+    text-decoration: none;
+    color: white;
+}
+
+.link__offer:hover {
+    color:#444444;
+}
+
+.menu__title {
+    background: rgb(51, 51, 51);
+}
+
+* {
+    box-sizing: border-box;
+  }
+   
+
+
+  .shopping-cart {
+    width: 750px;
+    height: 423px;
+    margin: 80px auto;
+    background: #FFFFFF;
+    box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
+    border-radius: 6px;
+   
+    display: flex;
+    flex-direction: column;
+  }
+
+  .title {
+    height: 60px;
+    border-bottom: 1px solid #E1E8EE;
+    padding: 20px 30px;
+    color: #5E6977;
+    font-size: 18px;
+    font-weight: 400;
+  }
+   
+  .item {
+    padding: 20px 30px;
+    height: 120px;
+    display: flex;
+  }
+   
+  .item:nth-child(3) {
+    border-top:  1px solid #E1E8EE;
+    border-bottom:  1px solid #E1E8EE;
+  }
+
+  .buttons {
+    position: relative;
+    padding-top: 30px;
+    margin-right: 60px;
+  }
+  .delete-btn,
+  .like-btn {
+    display: inline-block;
+    Cursor: pointer;
+  }
+
+   
+  .like-btn {
+    position: absolute;
+    top: 9px;
+    left: 15px;
+    background: url('twitter-heart.png');
+    width: 60px;
+    height: 60px;
+    background-size: 2900%;
+    background-repeat: no-repeat;
+  }
+
+  .is-active {
+    animation-name: animate;
+    animation-duration: .8s;
+    animation-iteration-count: 1;
+    animation-timing-function: steps(28);
+    animation-fill-mode: forwards;
+  }
+   
+  @keyframes animate {
+    0%   { background-position: left;  }
+    50%  { background-position: right; }
+    100% { background-position: right; }
+  }
+
+  .image {
+    margin-right: 50px;
+  }
+   
+  .description {
+    padding-top: 10px;
+    margin-right: 60px;
+    width: 115px;
+  }
+   
+  .description span {
+    display: block;
+    font-size: 14px;
+    color: #43484D;
+    font-weight: 400;
+  }
+   
+  .description span:first-child {
+    margin-bottom: 5px;
+  }
+  .description span:last-child {
+    font-weight: 300;
+    margin-top: 8px;
+    color: #86939E;
+  }
+
+  .quantity {
+    padding-top: 20px;
+    margin-right: 60px;
+  }
+  .quantity input {
+    -webkit-appearance: none;
+    border: none;
+    text-align: center;
+    width: 32px;
+    font-size: 16px;
+    color: #43484D;
+    font-weight: 300;
+  }
+   
+  button[class*=btn] {
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+  }
+  .minus-btn img {
+    margin-bottom: 3px;
+  }
+  .plus-btn img {
+    margin-top: 2px;
+  }
+   
+  button:focus,
+  input:focus {
+    outline:0;
+  }
+
+  .total-price {
+    width: 83px;
+    padding-top: 27px;
+    text-align: center;
+    font-size: 16px;
+    color: #43484D;
+    font-weight: 300;
+  }
+
+  @media (max-width: 800px) {
+    .shopping-cart {
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+    }
+    .item {
+      height: auto;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .image img {
+      width: 50%;
+    }
+    .image,
+    .quantity,
+    .description {
+      width: 100%;
+      text-align: center;
+      margin: 6px 0;
+    }
+    .buttons {
+      margin-right: 20px;
+    }
+  }
+
+  .itemf {
+    width: 300px;
+
+  }
+
+  .formm {
+    padding: 20px 0;
+  }
+
+.password_comm {
+  font-size: 12px;
+  color: gray;
+  margin-right: 90px;
+}
+
+
+.offer_text {
+  text-align: justify; 
+  font-size: 1.2rem;
+  margin-bottom: 70px;
+  line-height: 2rem;
+  width: 950px;
+}
+
+.wrapper {
+  max-width: 75%;
+  margin: auto;
+}
+
+.wrapper > p,
+.wrapper > h2 {
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+.wrapper > h2 {
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+.accordion {
+  background-color: white;
+  color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+  font-size: 1.2rem;
+  width: 100%;
+  padding: 2rem 2.5rem;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+}
+
+.accordion i {
+  font-size: 1.6rem;
+}
+
+.active,
+.accordion:hover {
+  background-color: #d7c0c0;
+}
+.pannel {
+  padding: 0 2rem 2.5rem 2rem;
+  background-color: white;
+  overflow: hidden;
+  background-color: #d7c0c0;
+  display: none;
+}
+.pannel p {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+.faq {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 10px 0;
+}
+.faq.active {
+  border: none;
+}
+
+.offer__title {
+  letter-spacing: 2px;
+  margin: 60px 0 15px;
+  font-weight: 700;
+}
+
+.pros__title {
+  letter-spacing: 2px;
+  margin: 60px 0 50px;
+  font-weight: 700;
+}
