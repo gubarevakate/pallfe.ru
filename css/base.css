@@ -1,0 +1,144 @@
+/* .navbar {
+    padding: 20px 20px !important;
+} */
+
+/* .collapse {
+    margin: 0 0 0 50px;
+} */
+
+/* body {
+    background-color: rgb(235, 235, 235);
+} */
+
+.section {
+    padding: 10px 0;
+}
+
+.row {
+    padding: 0 12px;
+}
+
+.product__all {
+    margin-bottom: 50px;
+}
+
+footer {
+    
+    color: #cacaca;
+    margin-top: 1em;
+    }
+    footer h5, footer img {
+    margin-top: 2em;
+    font-weight: bold;
+    }
+    footer address {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    color: #acacac;
+    }
+    footer ul {
+    margin-bottom: 5em;
+    }
+    footer address strong {
+    color: #cacaca;
+    display: block;
+    padding-bottom: 0.62em;
+    }
+    footer a {
+    text-decoration: none !important;
+    font-weight: 300;
+    color: #cacaca;
+    }
+    footer a:hover {
+    text-decoration: none;
+    color: #FFF;
+    }
+
+    .list__item__first::before {
+        content:'';
+        background: url('../img/icons1.png') no-repeat;
+        display: block;
+        width: 80px;
+        height: 60px;
+        margin-right: 10px;
+    }
+    
+    .list__item__second::before {
+        content:'';
+        background: url('../img/icons2.png') no-repeat;
+        display: block;
+        width: 60px;
+        height: 60px;
+        margin-right: 10px;
+    }
+    
+    .list__item__third::before {
+        content:'';
+        background: url('../img/icons3.png') no-repeat;
+        display: block;
+        width: 60px;
+        height: 60px;
+        margin-right: 10px;
+    }
+    
+    .list__item__firsttwo::before {
+        content:'';
+        background: url('../img/icons4.png') no-repeat;
+        display: block;
+        width: 60px;
+        height: 60px;
+        margin-right: 10px;
+    }
+    
+    .list__item__secondtwo::before {
+        content:'';
+        background: url('../img/icons5.png') no-repeat;
+        display: block;
+        width: 70px;
+        height: 60px;
+        margin-right: 10px;
+    }
+    
+    .list__item__thirdtwo::before {
+        content:'';
+        background: url('../img/icons6.png') no-repeat;
+        display: block;
+        width: 60px;
+        height: 58px;
+        margin-right: 10px;
+    }
+    
+    .list__item__thirdtwo::after {
+        content:'*по желанию';
+        display: block;
+        font-size: 10px;
+        color: rgba(0, 0, 0, 0.41);
+        margin:17px 0 20px -60px;
+    }
+    
+    .list__item {
+        width: 270px;
+    
+    }
+
+    .director {
+        width: 430px;
+        height:370px;
+        margin-top: -70px;
+    }
+
+.st {
+    padding: 10px 15px;
+    background-color: rgb(140, 140, 140);
+    border-radius: 15px;
+    margin-right: 15px;
+}
+
+.st:hover {
+    background-color: rgb(109, 109, 109);
+    transition: all 0.5s ;
+}
+
+/* .scinph {
+    width: 500px;
+} */
