@@ -1,0 +1,67 @@
+<div class="destinations">
+                        <div class="destinations__item">
+                          <div class="destinations__img">
+                            <img src="img/fluide.png" alt="Индия">
+                          </div>
+                          <div class="destinations__wrapper text-center">
+                            <h3 class="destinations__title">
+                              peptide glazing fluide
+                            </h3>
+                            <p class="destinations__desc">
+                              Сыворотка для сияния <br>
+                               и увлажнения кожи 
+                            </p>
+                            <p class="destinations__price">
+                              600 ₽
+                            </p>
+                            <div class="destinations__info-wrap">
+                              <a id="sign-btn" class="btn btn-default btn-product btn-lg pull-right" href="#" role="button">подробнее</a>
+                              <a id="sign-btn" class="btn btn-default btn-product btn-product-cart btn-lg pull-right" href="#" role="button"><img src="img/cart.png"></a>
+                            </div>
+                          </div>			
+                        </div>
+                        <div class="destinations__item">
+                          <div class="destinations__img">
+                            <img src="img/tint.png" alt="Индия">
+                          </div>
+                          <div class="destinations__wrapper text-center">
+                            <h3 class="destinations__title">
+                              peptide lip tint
+                            </h3>
+                            <p class="destinations__desc">
+                              Тинт для глубокого <br>
+                              увлажнения губ
+                            </p>
+                            <p class="destinations__price">
+                              300 ₽
+                            </p>
+                            <div class="destinations__info-wrap">
+                              <a id="sign-btn" class="btn btn-default btn-product btn-lg pull-right" href="#" role="button">подробнее</a>
+                              <a id="sign-btn" class="btn btn-default btn-product btn-product-cart btn-lg pull-right" href="#" role="button"><img src="img/cart.png"></a>
+                            </div>
+                          </div>			
+                        </div>
+                        <div class="destinations__item">
+                          <div class="destinations__img">
+                            <img src="img/milk.png" alt="Индия">
+                          </div>
+                          <div class="destinations__wrapper text-center">
+                            <h3 class="destinations__title">
+                              Glazing milk
+                            </h3>
+                            <p class="destinations__desc">
+                              Молочко для блеска <br>
+                               и сияния кожи
+                            </p>
+                            <p class="destinations__price">
+                              650 ₽
+                            </p>
+                            <div class="destinations__info-wrap">
+                              <a id="sign-btn" class="btn btn-default btn-product btn-lg pull-right" href="#" role="button">подробнее</a>
+                              <a id="sign-btn" class="btn btn-default btn-product btn-product-cart btn-lg pull-right" href="#" role="button"><img src="img/cart.png"></a>
+                            </div>
+                          </div>			
+                        </div>
+                      </div>
+                      <a id="sign-btn" class="btn btn-ghost btn-default btn-product btn-lg pull-right mx-auto" href="#" role="button">Каталог</a>
+                    </div>
